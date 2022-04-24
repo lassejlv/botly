@@ -8,7 +8,7 @@
     "prefix": "b!",
     "port": "3000",
     "mongodb": {
-        "url": "mongodb://localhost:27017/bot"
+        "url": "mongodb://lasse_vestergaar_botly:!Botly123@mongo.db.mdbgo.com:8604/lasse_vestergaard_botly"
     },
 
     "channels": {
