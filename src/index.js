@@ -14,11 +14,10 @@ let time = Date.now();
 client.on("ready", () => {
   client.channels.cache.get("988161146500563004").send(
     new Discord.MessageEmbed()
-      .setColor("#00ff00")
-      .setTitle(client.user.username + " Logged in!")
+      .setColor("WHITE")
+      .setTitle(client.user.username + " ready to serve! 🚀")
       .setDescription("Ready in " + (Date.now() - time) + "ms!")
-      .addField("Client ID", client.user.id)
-      .addField("Logged in at", time)
+      .addField("Client ID", `${client.user.id}`)
   );
 
   console.log(`Done, ready in ${Date.now() - time}ms`);
